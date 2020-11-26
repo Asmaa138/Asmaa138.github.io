@@ -33,7 +33,7 @@ a:active {
 
 section{
  width:100%;
- height:65vh;
+ height:55vh;
  background-image:url("bg.png");
  background-size:cover;
  background-repeat:no-repeat;
@@ -83,9 +83,9 @@ nav ul li a{
  transform: translateX(-75%);
 }*/
 .text-container p:nth-child(1){
- font-family: calibri;
+ font-family: myriad pro regular;
  font-weight:bold;
- color:#6d6d6d;
+ color:#403e3e;
  font-size:22px;
 }
 .text-container p:nth-child(2){
@@ -177,9 +177,10 @@ button:active{
  height: 40px;
  color:#ffffff;
  outline:none;
- border:none;
- font-family: calibri;
- background-color:#262525;
+ border:2px sold black;
+  font-family: calibri;
+ background-color:#ffffff;
+ border-radius:5px;
 }
 .services{
  height:600px;
