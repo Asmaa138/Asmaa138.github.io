@@ -32,7 +32,7 @@ a:active {
 
 
 section{
- width:102%;
+ width:100%;
  height:55vh;
  background-image:url("bg.png");
  background-size:cover;
@@ -75,13 +75,7 @@ nav ul li a{
  color:#2d2a2a;
  font-weight:bold;
 }
-/*.model{
- height:530px;
- position:absolute;
- bottom:40px;
- left:75%;
- transform: translateX(-75%);
-}*/
+
 .text-container p:nth-child(1){
  font-family: myriad pro regular;
  font-weight:bold;
@@ -173,6 +167,8 @@ button:active{
  font-size:16px;
 }
 .about-text button{
+   float: left;
+    margin: 4;
  width:120px;
  height: 40px;
  color:#ffffff;
@@ -182,10 +178,6 @@ button:active{
  background-color:#ffffff;
  border-radius:8px;
  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
-}
-.inline {
-   display:inline-block;
-   margin-right:5px;
 }
 .services{
  height:600px;
