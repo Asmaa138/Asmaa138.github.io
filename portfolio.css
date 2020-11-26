@@ -183,6 +183,10 @@ button:active{
  border-radius:8px;
  box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 }
+.inline {
+   display:inline-block;
+   margin-right:5px;
+}
 .services{
  height:600px;
  background-color:#ffffff;
